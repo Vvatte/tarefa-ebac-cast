@@ -8,7 +8,7 @@ public class Cadastro {
         System.out.println("Digite seu Cpf");
         cpf = num.nextInt();
 
-        long n = cpf;
+        Integer n = cpf;
         System.out.println("Seu Cpf:" + n);
 
     }
