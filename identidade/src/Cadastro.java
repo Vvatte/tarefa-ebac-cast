@@ -3,13 +3,13 @@ import java.util.Scanner;
 public class Cadastro {
 
     public static void main(String[] args) {
-        Scanner cpf = new Scanner(System.in);
-        Integer cpf;
+        Scanner num = new Scanner(System.in);
+        int cpf;
         System.out.println("Digite seu Cpf");
-        cpf.nextInt();
+        cpf = num.nextInt();
 
-        System.out.println("Seu Cpf:" + cpf);
+        long n = cpf;
+        System.out.println("Seu Cpf:" + n);
 
-        cpf.close();
     }
 }
